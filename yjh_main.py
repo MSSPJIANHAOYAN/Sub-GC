@@ -6,4 +6,5 @@ import json
 
 senticap_path = 'data/senticap_dataset.json'
 senticap = json.load(open(senticap_path))
+print(len(senticap['images']))
 print('done')
